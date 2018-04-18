@@ -1,0 +1,38 @@
+@charset "utf-8";
+		/* En kommentar */
+body {
+	background-color: #999966; /* Denna färg för att, det är mer vänlig för synen, Man kan enkelt se skillnader mellan de andra färgerna. */
+	font-family: Verdana, Tahoma, sans-serif ;   /* Jag tar Verdana först för det är lättläst typsnitt, Tahoma efteråt för att det är nästan likadan bara lite tättare.
+	 Utan Serif för om man inte skulle ha något av det men datorn skulle hitta något som passar iallafall*/
+		}
+h1 {
+	font-size: 23px; /*Provade mig fram, ser bra ut i storlek och samtidigt lite större än h2 */
+	color:black;  /*Vanligt färg att använda sig av */
+	border-bottom: 2px solid #333333;
+	text-align: center;
+	font-family: 'Bungee Shade', cursive; /*Testa att använda ett nerladdat font */
+		}
+h2 {
+	font-size: 18px;
+		}
+h2, p {
+	margin-left: 30px; /* Har det här så att inte det texten ligger bredvid kanten av sidan så att det är lite bättre struktuerat också att det är bättre än att använda align center/left/right */
+	text-align: left;
+	line-height: 18px;
+		}
+img {
+	display: block;
+	margin: auto;
+	width: 200px;
+}
+a {
+	font-weight: bold;  /*Länken blir bold, visar att jag vill specifiera något */
+}
+		a:link { color:blue} /*Vanliga länk färger */
+		a:visited { color:purple}
+		a:active { color:red}
+	
+	
+		
+		
+		/*
